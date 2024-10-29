@@ -1,0 +1,32 @@
+# Ignorar diretórios de build
+bin/
+obj/
+
+# Ignorar arquivos de configuração local
+*.user
+*.suo
+
+# Ignorar arquivos de compilação específicos do framework
+Debug/
+Release/
+*.dll
+*.exe
+
+# Ignorar diretórios de build do .NET, incluindo o net8.0
+bin/Debug/net8.0/
+bin/Release/net8.0/
+
+# Logs e outros arquivos temporários
+*.log
+*.tmp
+*.temp
+
+# Configurações do Visual Studio Code e IDEs
+.vscode/
+.idea/
+.vs/
+
+# Sistema operacional
+Thumbs.db
+desktop.ini
+.DS_Store
